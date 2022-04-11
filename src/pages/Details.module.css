@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  color: #FF5000;
+}
+
+.genre {
+  margin-top: 50px;
+  font-size: 1.2rem;
+  color: gray;
+  font-weight: 700;
+}
+
+.col {
+  max-width: 400px;
+  margin: 15px;
+  height: auto;
+  height: 80%;
+}
+
+.image {
+  border-radius: 30px;
+}
+
+.details {
+  font-size: 1.5rem;
+  align-self: center;
+}

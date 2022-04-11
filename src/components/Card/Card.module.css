@@ -1,0 +1,32 @@
+.card {
+  list-style: none;
+  font-size: 1rem;
+  background-color: #FFF;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.card:hover {
+  opacity: 0.9;
+}
+
+.image {
+  border-radius: 20px;
+  background-color: azure;
+}
+
+.card_title {
+  color: #263338;
+  height: 30px;
+}
+
+.release_date {
+  color: #BCC0C4;
+}
+
+@media (max-width: 560px) {
+  .image {
+    width: 90%;
+    height: auto;
+  }
+}
