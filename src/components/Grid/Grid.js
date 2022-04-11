@@ -23,7 +23,7 @@ export default function Grid({ search }) {
       setHasMore(data.page < data.total_pages);
       setIsLoading(false);
     })
-  }, [search, page])
+  }, [search, page, searchURL])
 
   if(!isLoading && movies.length === 0) {
     return <Empty />

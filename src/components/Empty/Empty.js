@@ -8,7 +8,7 @@ export function Empty() {
         <h3>No results found :( </h3>
         <p>We suggest you try to search with another name.</p>
       </div>
-      <img src={noResults} className={styles.image}/>
+      <img src={noResults} className={styles.image} alt='No results'/>
     </div>
   )
 }

@@ -9,7 +9,7 @@ export function Error() {
         <p>Apparently the page you are looking for does not exist</p>
         <p> try to search for something from Avengers</p>
       </div>
-      <img src={error} />
+      <img src={error} alt='404 error' />
     </div>
   )
 }
